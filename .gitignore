@@ -1,0 +1,21 @@
+# Notebooks et caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Données et artefacts lourds
+/data/
+/datasets/
+/runs/
+/weights/
+*.pt
+*.onnx
+*.engine
+
+# Environnements et secrets
+.venv/
+.env
+
+# Archives locales
+*.rar
+*.zip
